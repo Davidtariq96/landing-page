@@ -269,8 +269,13 @@ form button{
     padding: 10px;
     display: block;
     border: none;
+    background: seagreen;
     margin-top: 1rem;
+    cursor: pointer;
     border-radius: 3px 3px 3px 3px;
+}
+form button:hover{
+    background: gray;
 }
 
 form :nth-child(1){
