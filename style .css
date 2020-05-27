@@ -236,8 +236,112 @@ footer{
     margin-left: 1rem;
 }
 
+#About-page{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#About-page h3{
+    color: seagreen;
+    margin-top: 2rem;
+}
+#About-page h5{
+    font-size: 1rem;
+    color: gray;
+}
+
 @media only screen and (max-width:1050px){
     .flex-wrapper{
         display: block;
     }
+
+    .flex-wrapper :nth-child(2){
+        margin-top: 2rem;
+    }
+
+    .flex-wrapper :nth-child(3){
+        margin-top: 2rem;
+    }
+
+    .interns{
+        background: white;
+        box-shadow: 1px 1px 1px 1px gray;
+        /* padding: 5px 5px 100px 5px; */
+        padding: 10px;
+        max-width: 500px;
+        margin-top: 30px;
+        /* min-width: 100px; */
+        height: auto;
+        padding-bottom: 5rem;
+        margin: auto;
+    }
+    
+    .mentors{
+        background: white;
+        box-shadow: 1px 1px 1px 1px gray;
+        /* padding: 5px 5px 100px 5px; */
+        padding: 10px;
+        max-width: 500px;
+        /* min-width: 100px; */
+        height: auto;
+        padding-bottom: 5rem;
+        margin: 0 auto;
+    }
+
+    .feedbacks{
+        background: #192f59;
+        box-shadow: 1px 1px 1px 1px gray;
+        padding-bottom: 6rem;
+        margin-top: -5rem;
+        max-width: 700px;
+        margin: auto;
+        margin-bottom: -3rem;
+        padding-top: 5rem;
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+        /* margin-right: 1rem; */
+    }
+
+    #About-page{
+        text-align: justify;
+    }
+    #About-page h3{
+        /* float: left; */
+        margin-left: 1rem;
+    }
+
+    #About-page h5{
+        text-align: justify;
+        margin-left: 1rem;
+    }
+    footer{
+        border-top: 1px solid gray;
+    }
+
+    #page-nav label{
+        display:inline-block ;color: #fff;
+        background: #192f59;
+        font-style: normal;
+        font-size: 1.5em;
+        padding: 10px;
+        margin-top: 1rem;
+
+    }   
+    #page-nav ul li{
+        display: block;
+    }
+    #page-nav ul li{
+        border-top: 1px solid white;
+    }
+    #page-nav ul li:hover{
+        background: grey;
+    }
+    #page-nav ul{
+        display: none;
+    } 
+    #page-nav input:checked ~ ul{
+        display: block;
+
+    }
+
 }
