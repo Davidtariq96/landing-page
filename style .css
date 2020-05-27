@@ -292,6 +292,10 @@ form input{
 }
 
 @media only screen and (max-width:1050px){
+    .headings form{
+        margin: 0 auto;
+    }
+
     .flex-wrapper{
         /* display: block;
     }
